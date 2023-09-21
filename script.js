@@ -91,7 +91,7 @@ btnRef.forEach((element) => {
     } else {
       xTurn = true;
       //Display Y
-      element.innerText = "O";
+      element.innerText = "0";
       element.disabled = true;
     }
     //Increment count on each click
